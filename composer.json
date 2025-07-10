@@ -1,0 +1,24 @@
+{
+  "name": "prabaharan/myml",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+        {
+        "name": "Prabaharan SOlairaj",
+        "email": "spraba84@gmail.com",
+        "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "": [
+                "src/"
+            ]
+        },
+        "psr-4": {
+            "MyML\\Matrix\\": "src/MyML/Matrix/",
+            "MyML\\Classification\\KNearestNeighbors\\": "src/MyML/Classification/KNearestNeighbors/",
+            "MyML\\Preprocessing\\StandardScaler\\": "src/MyML/Preprocessing/StandardScaler/"
+        }
+    }
+}
