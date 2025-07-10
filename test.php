@@ -6,11 +6,18 @@ use MyML\Matrix;
 use MyML\Classification\KNearestNeighbors;
 use MyML\Preprocessing\StandardScaler;
 
+// $samples = new Matrix([
+//     [1, 2],
+//     [2, 1],
+//     [3, 3],
+//     [5, 4]
+// ]);
+
 $samples = new Matrix([
-    [1, 2],
-    [2, 1],
-    [3, 3],
-    [5, 4]
+    [1, 2, 3],
+    [2, 1, 3],
+    [3, 3, 3],
+    [5, 4, 6]
 ]);
 $labels = ['A', 'A', 'B', 'B'];
 
